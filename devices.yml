@@ -1,0 +1,16 @@
+---
+firewall:
+  - name:
+    ip:
+
+router:
+  - name:
+    ip:
+   - name:
+    ip:
+
+switch:
+  - name:
+    ip:
+  - name:
+    ip:
