@@ -2,16 +2,18 @@
 Perform Cisco syslog file parser for certain day and send result to e-mail as html tables.
 
 settings.ini - for configure parameters
-requirements.txt - required python modules
-template.html - css-template for tables
 
+requirements.txt - required python modules
+
+template.html - css-template for tables
+---
 Syslog-file name format: yyyy-mm-dd.xxx.xxx.xxx.xxx.txt
 where: 
 yyyy - year
 mm - month
 dd - day
 xxx - ip-address octets (tree numbers in each)
-
+---
 Syslog-lines format:
 "...	level	...	code: message"
 where:
